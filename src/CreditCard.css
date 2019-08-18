@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Monda&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Monda", sans-serif;
+  opacity: 0.8;
+}
+
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  background-image: url("./images/gold_background.jpg");
+  border-radius: 20px;
+  margin: 30px;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.credit-card-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.cc-title {
+  align-self: flex-end;
+}
+
+/* second part */
+.second-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credit-card-info{
+  min-width: 300px
+}
+
+.pin-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 7px 0;
+}
+
+.credit-card-date-t {
+  font-size: 0.7em;
+}
+
+.credit-card-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.children-imgs {
+  justify-self: center;
+  max-width: 100px;
+  overflow: inherit;
+  opacity: 0.8;
+}
+
+.chip {
+  height: 60px;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
